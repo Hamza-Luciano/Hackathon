@@ -54,5 +54,11 @@ export default styled.main`
     img {
       width: 55vw;
     }
+    h1 {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 2em;
+    margin: 2rem 0;
+  }
   } ;
 `;

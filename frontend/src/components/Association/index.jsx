@@ -37,7 +37,6 @@ export default function Association() {
       </p>
       <img src={ImgAsso2} alt="intro" />
       <h3>
-
         <img src={goodplanet} alt="good planet" className="logo" />
 
         <a href="https://www.goodplanet.org/fr/">Goodplanet</a>
@@ -106,7 +105,6 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
-
         <img src={zerowaste} alt="zero waste logo" className="logo" />
 
         <a href="https://www.zerowastefrance.org/">Zero waste France</a>
@@ -127,7 +125,6 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
-
         <img src={logoHIRONDELLE} alt="Hirondelle logo" className="logo" />
 
         <a href="https://www.associationhirondelle.fr/">
@@ -151,7 +148,6 @@ export default function Association() {
       </a>
       <img src={ImgAsso1} alt="Animal" />
       <h3>
-
         <img src={WWFLogo} alt="wwf logo" className="logo" />
 
         <a href="https://www.wwf.fr/">WWF</a>
@@ -175,7 +171,6 @@ export default function Association() {
       </a>
 
       <h3>
-
         <img src={ifaw} alt="IFAW" className="logo" />
 
         <a href="https://www.ifaw.org/fr">
@@ -199,7 +194,6 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
-
         <img src={greenpeace} alt="GreenPeace" className="logo" />
 
         <a href="https://www.greenpeace.fr/">Greenpeace</a>

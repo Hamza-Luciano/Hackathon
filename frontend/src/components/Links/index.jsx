@@ -28,7 +28,6 @@ function Links() {
             Faite un don
           </button>
         </a>
-
       </div>
     </SLinks>
   );
