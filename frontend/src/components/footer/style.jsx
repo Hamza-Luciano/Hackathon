@@ -15,6 +15,14 @@ export default styled.footer`
   font-weight: bold;
   margin: 0;
   padding: 0;
+
+  .ml {
+    font-size: 0.6rem;
+  }
+  h1,
+  h4 {
+    text-align: center;
+  }
 `;
 
 // surligner les mots quand on passe dedans
