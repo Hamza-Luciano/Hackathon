@@ -23,11 +23,12 @@ function Links() {
           </button>
         </Link>
 
-        <Link to="https://planete-urgence.org/planter-un-arbre/">
+        <a href="https://planete-urgence.org/planter-un-arbre/">
           <button type="button" className="but">
             Faite un don
           </button>
-        </Link>
+        </a>
+
       </div>
     </SLinks>
   );
