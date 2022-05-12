@@ -3,9 +3,11 @@ import SFooter from "./style";
 function Footer() {
   return (
     <SFooter>
-      <p>Mentions légales</p>
-      <p>Nous contacter</p>
-      <p>Team</p>
+      <ul>
+        <li>Mentions légales</li>
+        <li>Nous contacter</li>
+        <li>Team</li>
+      </ul>
     </SFooter>
   );
 }

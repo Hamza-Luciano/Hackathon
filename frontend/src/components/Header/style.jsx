@@ -21,7 +21,6 @@ export default styled.header`
     padding: 1rem;
   }
   @media screen and (min-width: 620px) {
-    width: 100vw;
     height: 100vh;
     justify-content: flex-start;
 
