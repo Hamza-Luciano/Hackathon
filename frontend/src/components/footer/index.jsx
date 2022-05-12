@@ -1,5 +1,7 @@
-import Modal from "@components/modal";
+import TeamItem from "../TeamItem";
+import Modal from "@components/Modal";
 import SFooter from "./style";
+import datateams from "../../assets/datateam";
 
 function Footer() {
   return (
@@ -29,28 +31,44 @@ function Footer() {
             retirer sans préavis et sans justification tout contenu déposé par
             les utilisateurs qui ne satisferait pas à la charte déontologique du
             site ou à la législation en vigueur.
-            <h4>PROPRIÉTÉ INTELLECTUELLE</h4> Sauf mention contraire, tous les
-            éléments accessibles sur le site (textes, images, graphismes, logo,
-            icônes, sons, logiciels, etc.) restent la propriété exclusive de
-            leurs auteurs, en ce qui concerne les droits de propriété
-            intellectuelle ou les droits d’usage. 1 Toute reproduction,
-            représentation, modification, publication, adaptation de tout ou
-            partie des éléments du site, quel que soit le moyen ou le procédé
-            utilisé, est interdite, sauf autorisation écrite préalable de
-            l’auteur.23 Toute exploitation non autorisée du site ou de l’un
+            <h4>PROPRIÉTÉ INTELLECTUELLE</h4>
+            Sauf mention contraire, tous les éléments accessibles sur le site
+            (textes, images, graphismes, logo, icônes, sons, logiciels, etc.)
+            restent la propriété exclusive de leurs auteurs, en ce qui concerne
+            les droits de propriété intellectuelle ou les droits d’usage. Toute
+            reproduction, représentation, modification, publication, adaptation
+            de tout ou partie des éléments du site, quel que soit le moyen ou le
+            procédé utilisé, est interdite, sauf autorisation écrite préalable
+            de l’auteur.Toute exploitation non autorisée du site ou de l’un
             quelconque des éléments qu’il contient est considérée comme
-            constitutive d’une contrefaçon et passible de poursuites. 4 Les
+            constitutive d’une contrefaçon et passible de poursuites. Les
             marques et logos reproduits sur le site sont déposés par les
-            sociétés qui en sont propriétaires. <h4>LIENS</h4> Liens sortants Le
-            propriétaire du site décline toute responsabilité et n’est pas
-            engagé par le référencement via des liens hypertextes, de ressources
-            tierces présentes sur le réseau Internet, tant en ce qui concerne
-            leur contenu que leur pertinence.
+            sociétés qui en sont propriétaires.
+            <h4>LIENS</h4>
+            Liens sortants Le propriétaire du site décline toute responsabilité
+            et n’est pas engagé par le référencement via des liens hypertextes,
+            de ressources tierces présentes sur le réseau Internet, tant en ce
+            qui concerne leur contenu que leur pertinence.
           </p>
         </p>
       </Modal>
-      <p>Nous contacter</p>
-      <p>Team</p>
+      <Modal button="Contact">
+        <p className="contact">Nous contacter</p>
+      </Modal>
+      <Modal button="Team">
+        <h2>Team</h2>
+        <p className="team">
+          {datateams.map((datateam) => (
+            <TeamItem
+              key={datateam.name}
+              name={datateam.name}
+              picture={datateam.picture}
+              title={datateam.title}
+              link={datateam.link}
+            />
+          ))}
+        </p>
+      </Modal>
     </SFooter>
   );
 }

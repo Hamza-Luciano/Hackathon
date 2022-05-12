@@ -15,9 +15,12 @@ export default styled.footer`
   font-weight: bold;
   margin: 0;
   padding: 0;
-
+  button:hover {
+    background-color: gold;
+  }
   .ml {
     font-size: 0.6rem;
+    text-align: justify;
   }
   h1,
   h4 {

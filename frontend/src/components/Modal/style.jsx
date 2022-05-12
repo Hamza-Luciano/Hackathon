@@ -26,14 +26,15 @@ export default styled.div`
   }
   .modal-content {
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
-    line-height: 1.4;
+    line-height: 1;
     background: #f1f1f1;
     padding: 14px 28px;
     border-radius: 3px;
-    min-width: 300px;
+    /* vrai valeur min-width: 300px; */
+    min-width: 450px;
     color: black;
   }
   .close-modal {
