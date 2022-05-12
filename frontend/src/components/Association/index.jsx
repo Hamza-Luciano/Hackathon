@@ -6,8 +6,7 @@ import SAssociation from "./style";
 export default function Association() {
   return (
     <SAssociation>
-      <h1> They can helps us</h1>
-      <img src={ImgAsso2} alt="intro" />
+      <h1> Donnez pour aider </h1>
       <p>
         Introduction : L’environnement est une richesse précieuse qu’il convient
         de préserver pour son développement durable. En effet, l’homme tire
@@ -23,17 +22,16 @@ export default function Association() {
         sont énormes. C’est pourquoi depuis quelques années déjà, plusieurs
         associations écologiques sont tournées vers un seul objectif : lutter
         contre la destruction de l’environnement et préserver les générations
-        futures. Elles s’engagent à protéger ce patrimoine commun. Découvrez le
-        top 20 des associations engagées dans la protection de l’environnement,
-        leurs missions et les actions qu’elles mènent pour préserver notre mère
-        Nature.
+        futures. Elles s’engagent à protéger ce patrimoine commun. Découvrez
+        notre top des associations engagées dans la protection de
+        l’environnement, leurs missions et les actions qu’elles mènent pour
+        préserver notre mère Nature.
       </p>
-
+      <img src={ImgAsso2} alt="intro" />
+      <h2>
+        <a href="https://www.goodplanet.org/fr/">Goodplanet</a>
+      </h2>
       <p>
-        Goodplanet :
-        <a href="https://donate.goodplanet.org/donate/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPcPC7VEPdhhbzLtd9IZVwQclLLiGGYQwNaQMox1OITeHUsctahNyhIncqUci6ajL33Ryo5GMJujT7fD6WnnkyA&utm_source=GPO&utm_medium=web&utm_content=menuhaut&_cv=1">
-          Faite un don
-        </a>
         Description La fondation Goodplanet a été créée en 2005. Ses objectifs
         sont axés sur la protection de l’environnement. Dans ce sens, elle a
         éveillé la conscience des populations sur les enjeux liés à
@@ -46,11 +44,16 @@ export default function Association() {
         durable en réalisant des affiches dans les écoles. Elle prend
         l’initiative des projets socio-environnementaux dans les pays du sud.
       </p>
-
+      <a href="https://donate.goodplanet.org/donate/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPcPC7VEPdhhbzLtd9IZVwQclLLiGGYQwNaQMox1OITeHUsctahNyhIncqUci6ajL33Ryo5GMJujT7fD6WnnkyA&utm_source=GPO&utm_medium=web&utm_content=menuhaut&_cv=1">
+        Faite un don
+      </a>
+      <h2>
+        <a href="https://www.fnh.org/">
+          Fondation pour la nature et l&#39;homme ( FNH)
+        </a>
+      </h2>
       <p>
-        Fondation pour la nature et l&#39;homme ( FNH) :
-        <a href="https://dons.fnh.org/home-site"> Faite un don </a> Pour
-        apporter sa contribution à la préservation de l’environnement, la
+        Pour apporter sa contribution à la préservation de l’environnement, la
         fondation FNH pour la nature et l’homme a été créée en 1990 et reconnue
         d’utilité publique en 1996. C’est une ONG apolitique, et non
         confessionnelle dont les actions convergent vers la construction d’une
@@ -63,13 +66,16 @@ export default function Association() {
         durable. Il faut souligner que les actions de la fondation sont
         soutenues par ses partenaires fondateurs.
       </p>
+      <a href="https://dons.fnh.org/home-site"> Faite un don </a>
 
       <img src={ImgAsso3} alt="Pollution" />
-      <p>
-        Agir pour l&#39; environnement (APE) :
-        <a href="https://soutenir.agirpourlenvironnement.org/b/mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyOFEYKXoBdt24INzmf73qGNl7rqXzNO0A0FqcnAVwAklA%3D%3D&_cv=1">
-          Faite un don
+      <h2>
+        <a href="https://www.agirpourlenvironnement.org/">
+          Agir pour l&#39; environnement (APE)
         </a>
+      </h2>
+
+      <p>
         Si plusieurs associations sont déjà tournées vers cette cause,
         l’association Agir pour l’environnement vient compléter la liste. Créée
         en 1997, Agir pour l’environnement a pour mission de mobiliser le public
@@ -81,37 +87,53 @@ export default function Association() {
         Depuis lors, l’association fonctionne sur fond propre et renonce à toute
         aide publique pour assurer son indépendance.
       </p>
+      <a href="https://soutenir.agirpourlenvironnement.org/b/mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyOFEYKXoBdt24INzmf73qGNl7rqXzNO0A0FqcnAVwAklA%3D%3D&_cv=1">
+        Faite un don
+      </a>
+      <h2>
+        <a href="https://www.zerowastefrance.org/">Zero waste France</a>
+      </h2>
       <p>
-        Zero waste France Zero weste France est une ONG qui a été fondée en 1997
-        en France. Sa mission est de promouvoir une ville sans déchet et
-        gaspillage des ressources. Zero waste France est une association
-        indépendante. Elle mène plusieurs actions notamment le festival Zero
-        waste, l’opération « Rien de neuf», les dépôts de plaintes contre
-        plusieurs grandes enseignes dans le cadre de sa problématique. Ses
-        nombreuses actions médiatiques font d’elle un acteur important de la
-        lutte contre l’émission de déchets dans la nature pour un développement
-        durable. L’ONG est en relation avec Zero Waste Paris avec laquelle elle
-        mène des actions entrant dans le cadre de sa vision pour un monde
-        meilleur.
+        Zero weste France est une ONG qui a été fondée en 1997 en France. Sa
+        mission est de promouvoir une ville sans déchet et gaspillage des
+        ressources. Zero waste France est une association indépendante. Elle
+        mène plusieurs actions notamment le festival Zero waste, l’opération «
+        Rien de neuf», les dépôts de plaintes contre plusieurs grandes enseignes
+        dans le cadre de sa problématique. Ses nombreuses actions médiatiques
+        font d’elle un acteur important de la lutte contre l’émission de déchets
+        dans la nature pour un développement durable. L’ONG est en relation avec
+        Zero Waste Paris avec laquelle elle mène des actions entrant dans le
+        cadre de sa vision pour un monde meilleur.
       </p>
+      <a href="https://donner.zerowastefrance.org/b/mon-don?_ga=2.195840488.55670577.1652366562-651964620.1652366562&cid=1&_cv=1">
+        Faite un don
+      </a>
+      <h2>
+        <a href="https://www.associationhirondelle.fr/">
+          L&#39;association Hirondelle
+        </a>
+      </h2>
       <p>
-        L&#39;association Hirondelle L’association a été créée en 1995 à Retz
-        Atlantique. Elle intervient aussi dans le domaine de l’environnement et
-        regroupe plus de 190 adhérents. L’association Hirondelle veille à
-        l’éducation à l’environnement et au développement durable. Elle incite à
-        la connaissance du territoire (répertorier la faune, la flore et assurer
-        la veille environnementale). En outre, elle travaille à rendre les
-        citoyens écologistes. L’association mène aussi ses actions à travers des
+        L’association a été créée en 1995 à Retz Atlantique. Elle intervient
+        aussi dans le domaine de l’environnement et regroupe plus de 190
+        adhérents. L’association Hirondelle veille à l’éducation à
+        l’environnement et au développement durable. Elle incite à la
+        connaissance du territoire (répertorier la faune, la flore et assurer la
+        veille environnementale). En outre, elle travaille à rendre les citoyens
+        écologistes. L’association mène aussi ses actions à travers des
         campagnes de sensibilisation, des formations, et la participation des
         citoyens à des évènements sur le développement durable. Il faut
         également noter que Hirondelle est un centre d’information et d’accueil.
       </p>
+      <a href="https://www.associationhirondelle.fr/faire-un-don/">
+        Faite un don
+      </a>
       <img src={ImgAsso1} alt="Animal" />
+      <h2>
+        <a href="https://www.wwf.fr/">WWF</a>
+      </h2>
+
       <p>
-        WWF :
-        <a href="https://faireundon.wwf.fr/don/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNed87qdfDPF%2B3XnHxbBuio6P%2B87BK5UgPBjhANsxPKWzasnF4R4IjJH7ALzd%2B1l4O%2FIsm%2F0n9JQgx%2BkBekp9Hmn1GDBsuGXs5WTF4s3T4oD9szUsypdqY83tgoViVQIJQ%3D&utm_source=SiteWWF&utm_medium=Homepage&utm_content=CTAHeader&_ga=2.215543063.100591217.1652355108-335257180.1652355108&_cv=1">
-          Faite un don
-        </a>
         Créée en 1961, WWF est la première organisation mondiale et la plus
         grande qui lutte pour la protection de l’environnement. Depuis 1973, le
         but de cette organisation est de travailler à ralentir la destruction de
@@ -124,34 +146,51 @@ export default function Association() {
         santé humaine. Aussi elle vise à régulariser le climat des forêts. Il
         est donc important de les préserver des feux de brousse.
       </p>
+      <a href="https://faireundon.wwf.fr/don/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNed87qdfDPF%2B3XnHxbBuio6P%2B87BK5UgPBjhANsxPKWzasnF4R4IjJH7ALzd%2B1l4O%2FIsm%2F0n9JQgx%2BkBekp9Hmn1GDBsuGXs5WTF4s3T4oD9szUsypdqY83tgoViVQIJQ%3D&utm_source=SiteWWF&utm_medium=Homepage&utm_content=CTAHeader&_ga=2.215543063.100591217.1652355108-335257180.1652355108&_cv=1">
+        Faite un don
+      </a>
+
+      <h2>
+        <a href="https://www.ifaw.org/fr">
+          Le fonds international pour la protection des animaux (IFAW)
+        </a>
+      </h2>
       <p>
-        Le fonds international pour la protection des animaux (IFAW) Cette ONG a
-        été créée en 1969 au Canada. Elle œuvre pour la protection des animaux
-        et reste l’une des plus importantes organisations de protection animale
-        au monde. Toutefois, son but spécifique est d’enrailler la chasse à des
-        fins commerciales du phoque, du Groenland et aussi du phoque capuchon au
-        large de la côte orientale canadienne. Par ailleurs, les actions de
-        l’ONG donnent des résultats d’autant plus qu’en 2009, l’Union européenne
-        a interdit le commerce de tous les dérivés du phoque. Les campagnes
-        internationales qu’organise le fonds international pour la protection
-        des animaux sont axées sur plusieurs secteurs. Il s’agit de l’aide
-        d’urgence aux animaux en détresse, la protection des éléphants, des
-        baleines, la lutte contre le braconnage, entre autres.
+        Cette ONG a été créée en 1969 au Canada. Elle œuvre pour la protection
+        des animaux et reste l’une des plus importantes organisations de
+        protection animale au monde. Toutefois, son but spécifique est
+        d’enrailler la chasse à des fins commerciales du phoque, du Groenland et
+        aussi du phoque capuchon au large de la côte orientale canadienne. Par
+        ailleurs, les actions de l’ONG donnent des résultats d’autant plus qu’en
+        2009, l’Union européenne a interdit le commerce de tous les dérivés du
+        phoque. Les campagnes internationales qu’organise le fonds international
+        pour la protection des animaux sont axées sur plusieurs secteurs. Il
+        s’agit de l’aide d’urgence aux animaux en détresse, la protection des
+        éléphants, des baleines, la lutte contre le braconnage, entre autres.
       </p>
+      <a href="https://secure.ifaw.org/france/donner-pour-aider?ms=FONDF220001058&cid=7013k000001C7ZM">
+        Faite un don
+      </a>
+      <h2>
+        <a href="https://www.greenpeace.fr/">Greenpeace</a>
+      </h2>
       <p>
-        Greenpeace Le réseau Greenpeace est un réseau d’organisations
-        indépendantes. Créé en 1971, il a pour mission la protection de
-        l’écosystème et la promotion de la paix. Son mode de fonctionnement est
-        basé sur le mouvement citoyen pour la construction d’un monde durable et
-        équitable. Il travaille notamment avec les gouvernements qu’il
-        responsabilise pour agir sur la destruction de l’environnement, les
-        inégalités et les conflits. Le réseau Greenpeace est une ONG d’envergure
-        internationale qui est présente dans plus de 55 pays à travers le monde.
-        Les campagnes de l’ONG privilégient le pouvoir citoyen pour encourager
-        ceux et celles qui épousent leurs idées. De plus, à juste titre,
-        Greenpeace amène les gens à croire en un lendemain meilleur et les
-        incite à mener des actions allant dans ce sens.
+        Le réseau Greenpeace est un réseau d’organisations indépendantes. Créé
+        en 1971, il a pour mission la protection de l’écosystème et la promotion
+        de la paix. Son mode de fonctionnement est basé sur le mouvement citoyen
+        pour la construction d’un monde durable et équitable. Il travaille
+        notamment avec les gouvernements qu’il responsabilise pour agir sur la
+        destruction de l’environnement, les inégalités et les conflits. Le
+        réseau Greenpeace est une ONG d’envergure internationale qui est
+        présente dans plus de 55 pays à travers le monde. Les campagnes de l’ONG
+        privilégient le pouvoir citoyen pour encourager ceux et celles qui
+        épousent leurs idées. De plus, à juste titre, Greenpeace amène les gens
+        à croire en un lendemain meilleur et les incite à mener des actions
+        allant dans ce sens.
       </p>
+      <a href="https://faire-un-don.greenpeace.fr/?codespec=NYYFD">
+        Faite un don
+      </a>
     </SAssociation>
   );
 }
