@@ -8,29 +8,28 @@ export default function Association() {
     <SAssociation>
       <h1> Donnez pour aider </h1>
       <p>
-        Introduction : L’environnement est une richesse précieuse qu’il convient
-        de préserver pour son développement durable. En effet, l’homme tire
-        l’essentiel de ses ressources dans la nature. Il exploite l’air, l’eau,
-        le sol, la végétation et les animaux qui l’entourent. Malheureusement,
-        ce milieu de vie est aujourd’hui menacé par la destruction. Les
-        activités de l’homme ont de plus en plus d’impacts sur son milieu de vie
-        et sur sa santé. La pollution des sols, de l’air et de l’eau est les
-        conséquences directes de la mauvaise exploitation de l’environnement.
-        Entre l’émission des gaz à effet de serre, la destruction de la couche
-        d’ozone, la liste est exhaustive en ce qui concerne les causes de cette
-        imminente destruction. Les conséquences et les risques pour la planète
-        sont énormes. C’est pourquoi depuis quelques années déjà, plusieurs
-        associations écologiques sont tournées vers un seul objectif : lutter
-        contre la destruction de l’environnement et préserver les générations
-        futures. Elles s’engagent à protéger ce patrimoine commun. Découvrez
-        notre top des associations engagées dans la protection de
-        l’environnement, leurs missions et les actions qu’elles mènent pour
-        préserver notre mère Nature.
+        L’environnement est une richesse précieuse qu’il convient de préserver
+        pour son développement durable. En effet, l’homme tire l’essentiel de
+        ses ressources dans la nature. Il exploite l’air, l’eau, le sol, la
+        végétation et les animaux qui l’entourent. Malheureusement, ce milieu de
+        vie est aujourd’hui menacé par la destruction. Les activités de l’homme
+        ont de plus en plus d’impacts sur son milieu de vie et sur sa santé. La
+        pollution des sols, de l’air et de l’eau est les conséquences directes
+        de la mauvaise exploitation de l’environnement. Entre l’émission des gaz
+        à effet de serre, la destruction de la couche d’ozone, la liste est
+        exhaustive en ce qui concerne les causes de cette imminente destruction.
+        Les conséquences et les risques pour la planète sont énormes. C’est
+        pourquoi depuis quelques années déjà, plusieurs associations écologiques
+        sont tournées vers un seul objectif : lutter contre la destruction de
+        l’environnement et préserver les générations futures. Elles s’engagent à
+        protéger ce patrimoine commun. Découvrez notre top des associations
+        engagées dans la protection de l’environnement, leurs missions et les
+        actions qu’elles mènent pour préserver notre mère Nature.
       </p>
       <img src={ImgAsso2} alt="intro" />
-      <h2>
+      <h3>
         <a href="https://www.goodplanet.org/fr/">Goodplanet</a>
-      </h2>
+      </h3>
       <p>
         Description La fondation Goodplanet a été créée en 2005. Ses objectifs
         sont axés sur la protection de l’environnement. Dans ce sens, elle a
@@ -47,11 +46,11 @@ export default function Association() {
       <a href="https://donate.goodplanet.org/donate/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPcPC7VEPdhhbzLtd9IZVwQclLLiGGYQwNaQMox1OITeHUsctahNyhIncqUci6ajL33Ryo5GMJujT7fD6WnnkyA&utm_source=GPO&utm_medium=web&utm_content=menuhaut&_cv=1">
         Faite un don
       </a>
-      <h2>
+      <h3>
         <a href="https://www.fnh.org/">
           Fondation pour la nature et l&#39;homme ( FNH)
         </a>
-      </h2>
+      </h3>
       <p>
         Pour apporter sa contribution à la préservation de l’environnement, la
         fondation FNH pour la nature et l’homme a été créée en 1990 et reconnue
@@ -69,11 +68,11 @@ export default function Association() {
       <a href="https://dons.fnh.org/home-site"> Faite un don </a>
 
       <img src={ImgAsso3} alt="Pollution" />
-      <h2>
+      <h3>
         <a href="https://www.agirpourlenvironnement.org/">
           Agir pour l&#39; environnement (APE)
         </a>
-      </h2>
+      </h3>
 
       <p>
         Si plusieurs associations sont déjà tournées vers cette cause,
@@ -90,9 +89,9 @@ export default function Association() {
       <a href="https://soutenir.agirpourlenvironnement.org/b/mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyOFEYKXoBdt24INzmf73qGNl7rqXzNO0A0FqcnAVwAklA%3D%3D&_cv=1">
         Faite un don
       </a>
-      <h2>
+      <h3>
         <a href="https://www.zerowastefrance.org/">Zero waste France</a>
-      </h2>
+      </h3>
       <p>
         Zero weste France est une ONG qui a été fondée en 1997 en France. Sa
         mission est de promouvoir une ville sans déchet et gaspillage des
@@ -108,11 +107,11 @@ export default function Association() {
       <a href="https://donner.zerowastefrance.org/b/mon-don?_ga=2.195840488.55670577.1652366562-651964620.1652366562&cid=1&_cv=1">
         Faite un don
       </a>
-      <h2>
+      <h3>
         <a href="https://www.associationhirondelle.fr/">
           L&#39;association Hirondelle
         </a>
-      </h2>
+      </h3>
       <p>
         L’association a été créée en 1995 à Retz Atlantique. Elle intervient
         aussi dans le domaine de l’environnement et regroupe plus de 190
@@ -129,9 +128,9 @@ export default function Association() {
         Faite un don
       </a>
       <img src={ImgAsso1} alt="Animal" />
-      <h2>
+      <h3>
         <a href="https://www.wwf.fr/">WWF</a>
-      </h2>
+      </h3>
 
       <p>
         Créée en 1961, WWF est la première organisation mondiale et la plus
@@ -150,11 +149,11 @@ export default function Association() {
         Faite un don
       </a>
 
-      <h2>
+      <h3>
         <a href="https://www.ifaw.org/fr">
           Le fonds international pour la protection des animaux (IFAW)
         </a>
-      </h2>
+      </h3>
       <p>
         Cette ONG a été créée en 1969 au Canada. Elle œuvre pour la protection
         des animaux et reste l’une des plus importantes organisations de
@@ -171,9 +170,9 @@ export default function Association() {
       <a href="https://secure.ifaw.org/france/donner-pour-aider?ms=FONDF220001058&cid=7013k000001C7ZM">
         Faite un don
       </a>
-      <h2>
+      <h3>
         <a href="https://www.greenpeace.fr/">Greenpeace</a>
-      </h2>
+      </h3>
       <p>
         Le réseau Greenpeace est un réseau d’organisations indépendantes. Créé
         en 1971, il a pour mission la protection de l’écosystème et la promotion

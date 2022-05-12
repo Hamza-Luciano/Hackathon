@@ -1,11 +1,10 @@
-import Home from "./pages/Home";
-
 import "./App.css";
+import Association from "@components/Association";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Association />
     </div>
   );
 }
