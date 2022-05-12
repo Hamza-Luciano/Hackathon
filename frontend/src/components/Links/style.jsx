@@ -16,7 +16,7 @@ export default styled.section`
       background-size: 200% auto;
       color: white;
       box-shadow: 0 0 20px #eee;
-      border-radius: 10px;
+      border-radius: 4vw;
     }
 
     button:hover {
@@ -26,8 +26,17 @@ export default styled.section`
     }
     .but {
       width: 20vw;
-      height: 10vw;
-      text-align: center;
+      height: 20vw;
+      border: none;
+      box-shadow: 10vw;
+    }
+    div.buttondiv {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      width: 50vw;
+      margin: auto;
+      padding: 20vw;
     }
   }
 `;
