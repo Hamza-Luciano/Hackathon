@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export default styled.section`
+
   button {
     background-image: linear-gradient(
       to right,
@@ -37,6 +38,8 @@ export default styled.section`
   }
 
   @media screen and (max-width: 620px) {
+
+ 
     button {
       background-image: linear-gradient(
         to right,
