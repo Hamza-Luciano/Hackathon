@@ -1,5 +1,5 @@
 import TeamItem from "../TeamItem";
-import Modal from "@components/Modal";
+import Modal from "../Modal";
 import SFooter from "./style";
 import datateams from "../../assets/datateam";
 
