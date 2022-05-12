@@ -1,6 +1,15 @@
 import ImgAsso1 from "../../assets/ImgAsso1.svg";
 import ImgAsso2 from "../../assets/ImgAsso2.svg";
 import ImgAsso3 from "../../assets/ImgAsso3.svg";
+import WWFLogo from "../../assets/WWFLogo.svg";
+import agir from "../../assets/agir.png";
+import FNH from "../../assets/FNH.png";
+import goodplanet from "../../assets/goodplanet.png";
+import greenpeace from "../../assets/greenpeace-logo.jpg";
+import ifaw from "../../assets/ifaw.jpg";
+import logoHIRONDELLE from "../../assets/LogoHIRONDELLE.png";
+import zerowaste from "../../assets/zerowaste.png";
+
 import SAssociation from "./style";
 
 export default function Association() {
@@ -28,6 +37,7 @@ export default function Association() {
       </p>
       <img src={ImgAsso2} alt="intro" />
       <h3>
+        <img src={goodplanet} alt="good planet" className="logo" />
         <a href="https://www.goodplanet.org/fr/">Goodplanet</a>
       </h3>
       <p>
@@ -47,6 +57,7 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
+        <img src={FNH} alt="FNH logo" className="logo" />
         <a href="https://www.fnh.org/">
           Fondation pour la nature et l&#39;homme ( FNH)
         </a>
@@ -69,6 +80,7 @@ export default function Association() {
 
       <img src={ImgAsso3} alt="Pollution" />
       <h3>
+        <img src={agir} alt="APE logo" className="logo" />
         <a href="https://www.agirpourlenvironnement.org/">
           Agir pour l&#39; environnement (APE)
         </a>
@@ -90,6 +102,7 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
+        <img src={zerowaste} alt="zero waste logo" className="logo" />
         <a href="https://www.zerowastefrance.org/">Zero waste France</a>
       </h3>
       <p>
@@ -108,6 +121,7 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
+        <img src={logoHIRONDELLE} alt="Hirondelle logo" className="logo" />
         <a href="https://www.associationhirondelle.fr/">
           L&#39;association Hirondelle
         </a>
@@ -129,6 +143,7 @@ export default function Association() {
       </a>
       <img src={ImgAsso1} alt="Animal" />
       <h3>
+        <img src={WWFLogo} alt="wwf logo" className="logo" />
         <a href="https://www.wwf.fr/">WWF</a>
       </h3>
 
@@ -150,6 +165,7 @@ export default function Association() {
       </a>
 
       <h3>
+        <img src={ifaw} alt="IFAW" className="logo" />
         <a href="https://www.ifaw.org/fr">
           Le fonds international pour la protection des animaux (IFAW)
         </a>
@@ -171,6 +187,7 @@ export default function Association() {
         Faite un don
       </a>
       <h3>
+        <img src={greenpeace} alt="GreenPeace" className="logo" />
         <a href="https://www.greenpeace.fr/">Greenpeace</a>
       </h3>
       <p>

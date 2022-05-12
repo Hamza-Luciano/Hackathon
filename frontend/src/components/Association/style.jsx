@@ -10,7 +10,7 @@ export default styled.main`
   h2 {
     font-style: normal;
     font-weight: 600;
-    padding-top: 2rem;
+    margin: 2rem auto;
   }
   h1 {
     text-transform: none;
@@ -19,17 +19,25 @@ export default styled.main`
   }
   p {
     font-size: 0.9375em;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
     padding-bottom: 2rem;
   }
   a,
   a:active {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-decoration: underline;
     color: black;
   }
   img {
     width: 90vw;
+    margin-bottom: 2rem;
+  }
+  .logo {
+    width: 30%;
+    padding-right: 1rem;
+  }
+  h3 {
+    margin: 2rem auto;
   }
 
   @media screen and (min-width: 600px) {
