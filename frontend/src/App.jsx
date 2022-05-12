@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import "./App.css";
-import Links from "./components/Links";
-
 import Footer from "./components/Footer";
 
 import Association from "./components/Association";
@@ -16,7 +14,6 @@ function App() {
       </Routes>
 
       <Footer />
-
     </div>
   );
 }

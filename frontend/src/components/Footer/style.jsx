@@ -19,6 +19,7 @@ export default styled.footer`
   h1,
   h4 {
     text-align: center;
+  }
   ul {
     height: 10vh;
     display: flex;

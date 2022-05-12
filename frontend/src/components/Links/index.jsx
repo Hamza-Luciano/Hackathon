@@ -17,7 +17,7 @@ function Links() {
           </button>
         </Link>
 
-        <Link to="/Associations">
+        <Link to="/association">
           <button type="button" className="but">
             Associations de France
           </button>
