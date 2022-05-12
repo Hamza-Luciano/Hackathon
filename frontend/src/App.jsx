@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-
 import "./App.css";
 import Links from "./components/Links";
 
@@ -11,6 +10,8 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
       <Links />
+      <Home />
+      <Footer />
     </div>
   );
 }
