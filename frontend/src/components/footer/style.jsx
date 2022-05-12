@@ -1,14 +1,8 @@
 import styled from "styled-components";
 
 export default styled.footer`
-  display: flex;
-  justify-content: space-around;
-  background-color: red;
+  background-color: #c2f189;
   margin: auto;
-  /* ici */
-
-  border-top: 0.2rem solid black;
-  position: fixed;
   width: 100%;
   bottom: 0;
   color: white;
@@ -25,7 +19,10 @@ export default styled.footer`
   h1,
   h4 {
     text-align: center;
+  ul {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 `;
-
-// surligner les mots quand on passe dedans

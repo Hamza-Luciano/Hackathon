@@ -6,7 +6,8 @@ import datateams from "../../assets/datateam";
 function Footer() {
   return (
     <SFooter>
-      <Modal button="Mentions légales">
+      <ul>
+        <Modal button="Mentions légales">
         <p className="ml">
           <h1>Mentions Légales</h1>
           <p>
@@ -69,6 +70,7 @@ function Footer() {
           ))}
         </p>
       </Modal>
+      </ul>
     </SFooter>
   );
 }
