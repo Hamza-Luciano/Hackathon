@@ -18,7 +18,6 @@ export default styled.section`
       box-shadow: 0 0 20px #eee;
 
       border-radius: 4vw;
-
     }
 
     button:hover {
@@ -40,7 +39,6 @@ export default styled.section`
       width: 50vw;
       margin: auto;
       padding: 20vw;
-
     }
   }
 `;
