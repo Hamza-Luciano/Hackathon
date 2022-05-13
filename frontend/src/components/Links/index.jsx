@@ -26,7 +26,7 @@ function Links() {
 
         <a href="https://planete-urgence.org/planter-un-arbre/">
           <button type="button" className="but">
-            Faite un don
+            Faire un don
           </button>
         </a>
       </div>

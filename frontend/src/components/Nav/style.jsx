@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default styled.nav`
-  background-color: #c2f189;
+  background-color: #89ce34;
   ul {
     list-style: none;
     padding: 0;

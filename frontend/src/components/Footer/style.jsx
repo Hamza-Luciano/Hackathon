@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default styled.footer`
-  background-color: #c2f189;
+  background-color: #89ce34;
   margin: auto;
   bottom: 0;
   color: white;
