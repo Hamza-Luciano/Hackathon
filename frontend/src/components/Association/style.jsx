@@ -47,11 +47,20 @@ export default styled.main`
     margin-bottom: 2rem;
   }
   .logo {
-    width: 30%;
-    padding-right: 1rem;
+    /* width: 30%;
+    padding-right: 1rem; */
+    display: block;
+    margin: 0 px auto;
+    width: auto;
+  }
+  .logo2 {
+    width: 24rem;
   }
   h3 {
     margin: 2rem auto;
+  }
+  p {
+    text-align: justify;
   }
 
   @media screen and (min-width: 600px) {
