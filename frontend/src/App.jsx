@@ -1,9 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+import Association from "./components/Association";
 import Home from "./pages/Home";
 import "./App.css";
 import Footer from "./components/Footer";
-
-import Association from "./components/Association";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/association" element={<Association />} />
       </Routes>
-
       <Footer />
     </div>
   );

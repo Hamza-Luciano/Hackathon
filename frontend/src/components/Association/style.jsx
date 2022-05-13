@@ -10,9 +10,7 @@ export default styled.main`
   h2 {
     font-style: normal;
     font-weight: 600;
-<
     margin: 2rem auto;
-
   }
   h1 {
     text-transform: none;
@@ -28,7 +26,6 @@ export default styled.main`
   }
   a,
   a:active {
-
     margin-bottom: 4rem;
 
     text-decoration: underline;
@@ -45,7 +42,6 @@ export default styled.main`
   }
   h3 {
     margin: 2rem auto;
-
   }
 
   @media screen and (min-width: 600px) {
@@ -55,10 +51,10 @@ export default styled.main`
       width: 55vw;
     }
     h1 {
-    text-transform: none;
-    letter-spacing: 0;
-    font-size: 2em;
-    margin: 2rem 0;
-  }
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 2em;
+      margin: 2rem 0;
+    }
   } ;
 `;

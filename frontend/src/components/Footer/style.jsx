@@ -13,10 +13,9 @@ export default styled.footer`
     background-color: gold;
   }
   .ml {
-    font-size: 0.6rem;
+    font-size: 1rem;
     text-align: justify;
   }
-  h1,
   h4 {
     text-align: center;
   }
