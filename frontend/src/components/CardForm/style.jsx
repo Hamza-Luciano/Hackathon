@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export default styled.section`
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
   .card {
     position: relative;
     width: 30rem;
@@ -40,6 +43,9 @@ export default styled.section`
   }
   .humidite {
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .imgcard {
     width: 20%;
