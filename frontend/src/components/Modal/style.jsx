@@ -47,6 +47,8 @@ export default styled.div`
   }
   .close {
     background-color: var(--color-button);
+    display: flex;
+    justify-content: center;
     border-radius: 7px;
     color: white;
     padding: 5px;
@@ -64,6 +66,11 @@ export default styled.div`
     flex-flow: row wrap;
   }
   main h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-button {
     display: flex;
     justify-content: center;
   }

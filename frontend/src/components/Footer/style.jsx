@@ -8,7 +8,7 @@ export default styled.footer`
   font-weight: bold;
   margin: 0;
   padding: 0;
-  position: relative;
+  position: fixed;
   width: 100vw;
   bottom: 0;
 
@@ -20,7 +20,6 @@ export default styled.footer`
 
   .ml p {
     font-size: 1rem;
-    text-align: justify;
     line-height: 1.1rem;
   }
   h1 {

@@ -16,6 +16,7 @@ export default styled.section`
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 4vw;
+    overflow: hidden;
   }
 
   button:hover {
