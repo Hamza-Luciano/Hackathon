@@ -10,6 +10,7 @@ function Footer() {
         <Modal button="Mentions légales">
           <p className="ml">
             <h1>Mentions Légales</h1>
+
             <p>
               Identité du site: ChangeYourWorld.com Addresse :
               https://changeyourworld.com Propriétaire : WildCodeSchool
@@ -46,17 +47,23 @@ function Footer() {
               contient est considérée comme constitutive d’une contrefaçon et
               passible de poursuites. Les marques et logos reproduits sur le
               site sont déposés par les sociétés qui en sont propriétaires.
-              <h4>LIENS</h4>
-              Liens sortants Le propriétaire du site décline toute
-              responsabilité et n’est pas engagé par le référencement via des
-              liens hypertextes, de ressources tierces présentes sur le réseau
-              Internet, tant en ce qui concerne leur contenu que leur
-              pertinence.
+              <h4>LIENS SORTANTS</h4>
+              Le propriétaire du site décline toute responsabilité et n’est pas
+              engagé par le référencement via des liens hypertextes, de
+              ressources tierces présentes sur le réseau Internet, tant en ce
+              qui concerne leur contenu que leur pertinence.
             </p>
           </p>
         </Modal>
         <Modal button="Contact">
-          <p className="contact">Nous contacter</p>
+          <p>
+            <h1>Pour tous renseignements :</h1>
+            <br />
+            <p className="contact">
+              Merci de nous contacter par mail à contact@changeyourworld.com ou
+              au 0320982812.
+            </p>
+          </p>
         </Modal>
         <Modal button="Team">
           <h2>Team</h2>
