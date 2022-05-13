@@ -40,7 +40,7 @@ export default styled.section`
     button {
       background-image: linear-gradient(
         to right,
-        #5dc42e 0%,
+        #35a339 0%,
         #c2f189 51%,
         #56ab2f 100%
       );
