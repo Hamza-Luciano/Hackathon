@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export default styled.header`
+  background-color: black;
   ul {
     list-style: none;
     padding: 0;
@@ -12,15 +13,12 @@ export default styled.header`
 
   .navBar {
     height: 10vh;
-    background-color: rgba(0, 0, 0, 0.9);
     color: greenyellow;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
     position: stiky;
-    width: 100vw;
     min-height: 50px;
   }
   .navBarSolid {
