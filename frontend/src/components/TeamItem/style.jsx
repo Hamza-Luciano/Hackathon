@@ -15,5 +15,10 @@ export default styled.div`
   img {
     width: 8rem;
     border-radius: 70%;
+    padding: 1rem;
+  }
+
+  .item h3 {
+    color: black;
   }
 `;

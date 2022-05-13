@@ -48,10 +48,23 @@ export default styled.div`
   .close {
     background-color: var(--color-button);
     border-radius: 7px;
-    color: black;
+    color: white;
     padding: 5px;
     margin-top: 20px;
     cursor: pointer;
     border: none;
+  }
+
+  .close:hover {
+    background-color: var(--color-button);
+  }
+  main .team {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  main h2 {
+    display: flex;
+    justify-content: center;
   }
 `;
