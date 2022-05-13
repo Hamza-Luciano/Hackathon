@@ -3,7 +3,6 @@ import styled from "styled-components";
 export default styled.footer`
   background-color: #c2f189;
   margin: auto;
-  width: 100%;
   bottom: 0;
   color: white;
   font-weight: bold;
