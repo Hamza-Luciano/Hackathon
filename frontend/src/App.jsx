@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import "./App.css";
 import Footer from "./components/Footer";
 import CardForm from "./components/CardForm";
+import VehiclesEmissions from "./components/VehiclesEmissions";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/association" element={<Association />} />
         <Route path="/mycity" element={<CardForm />} />
+        <Route path="/articles" element={<VehiclesEmissions />} />
       </Routes>
+
       <Footer />
     </div>
   );
