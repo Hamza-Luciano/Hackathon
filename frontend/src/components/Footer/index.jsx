@@ -8,15 +8,16 @@ function Footer() {
     <SFooter>
       <ul>
         <Modal button="Mentions légales">
-          <p className="ml">
+          <div className="ml">
             <h1>Mentions Légales</h1>
-
             <p>
               Identité du site: ChangeYourWorld.com Addresse :
               https://changeyourworld.com Propriétaire : WildCodeSchool
               Responsible for publication : Wild Corp Conception and realization
               : Wilders Hosting : Github Email: greenworld@gmail.com
-              <h4>CONDITIONS D’UTILISATION </h4>
+            </p>
+            <h4>CONDITIONS D’UTILISATION </h4>
+            <p>
               L’utilisation du présent site implique l’acceptation pleine et
               entière des conditions générales d’utilisation décrites ci-après.
               Ces conditions d’utilisation sont susceptibles d’être modifiées ou
@@ -34,7 +35,9 @@ function Footer() {
               justification tout contenu déposé par les utilisateurs qui ne
               satisferait pas à la charte déontologique du site ou à la
               législation en vigueur.
-              <h4>PROPRIÉTÉ INTELLECTUELLE</h4>
+            </p>
+            <h4>PROPRIÉTÉ INTELLECTUELLE</h4>
+            <p>
               Sauf mention contraire, tous les éléments accessibles sur le site
               (textes, images, graphismes, logo, icônes, sons, logiciels, etc.)
               restent la propriété exclusive de leurs auteurs, en ce qui
@@ -47,13 +50,15 @@ function Footer() {
               contient est considérée comme constitutive d’une contrefaçon et
               passible de poursuites. Les marques et logos reproduits sur le
               site sont déposés par les sociétés qui en sont propriétaires.
-              <h4>LIENS SORTANTS</h4>
+            </p>
+            <h4>LIENS SORTANTS</h4>
+            <p>
               Le propriétaire du site décline toute responsabilité et n’est pas
               engagé par le référencement via des liens hypertextes, de
               ressources tierces présentes sur le réseau Internet, tant en ce
               qui concerne leur contenu que leur pertinence.
             </p>
-          </p>
+          </div>
         </Modal>
         <Modal button="Contact">
           <p>

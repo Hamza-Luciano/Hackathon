@@ -11,12 +11,20 @@ export default styled.footer`
   padding: 0;
 
   .ml {
+    overflow: scroll;
+    height: 80vh;
+    padding: 1rem;
+  }
+
+  .ml p {
     font-size: 1rem;
     text-align: justify;
+    line-height: 1.1rem;
   }
   h1 {
     text-align: center;
     font-size: 1.5rem;
+    padding: 0.5rem;
   }
   .contact {
     text-align: center;
@@ -24,6 +32,7 @@ export default styled.footer`
   }
   h4 {
     text-align: center;
+    padding: 1.5rem;
   }
   ul {
     height: 10vh;
