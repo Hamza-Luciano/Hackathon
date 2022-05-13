@@ -1,4 +1,3 @@
-import ImgAsso1 from "../../assets/ImgAsso1.svg";
 import ImgAsso2 from "../../assets/ImgAsso2.svg";
 import ImgAsso3 from "../../assets/ImgAsso3.svg";
 
