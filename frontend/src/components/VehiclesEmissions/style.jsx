@@ -10,12 +10,12 @@ export default styled.section`
   }
   h1 {
     text-align: center;
-    font-size: 3rem;
-    padding: 2rem;
+    font-size: 2rem;
+    margin: 4rem;
   }
   div {
     display: flex;
-    margin: 2rem 3rem;
+    margin: 3rem 3rem;
   }
   p {
     display: flex;
