@@ -73,5 +73,13 @@ export default styled.section`
       margin: auto;
       padding: 20vw;
     }
+
+    .buttondiv {
+      display: flex;
+      flex-shrink: 3;
+    }
+    button.but {
+      margin-bottom: 2rem;
+    }
   }
 `;
