@@ -8,7 +8,7 @@ export default styled.footer`
   font-weight: bold;
   margin: 0;
   padding: 0;
-  position: fixed;
+  position: relative;
   width: 100vw;
   bottom: 0;
 
