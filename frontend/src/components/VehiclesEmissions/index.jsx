@@ -146,7 +146,7 @@ export default function VehiclesEmissions() {
           </div>
           <div>
             <img className="pic" src={gazNat} alt="gaznat" />
-            <p>Gaz naturel : {naturalGasData.co2e} kg / 1000 kms</p>
+            <p>Gaz naturel : {naturalGasData.co2e} kg / 1000 km</p>
           </div>
           <div>
             <img className="pic" src={Diesel} alt="diesel" />
