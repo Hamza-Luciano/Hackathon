@@ -17,7 +17,6 @@ function App() {
         <Route path="/mycity" element={<CardForm />} />
         <Route path="/articles" element={<VehiclesEmissions />} />
       </Routes>
-
       <Footer />
     </div>
   );

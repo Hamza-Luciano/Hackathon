@@ -4,6 +4,7 @@ import SLinks from "./style";
 function Links() {
   return (
     <SLinks>
+      <hr />
       <div className="buttondiv">
         <Link to="/mycity">
           <button type="button" className="but">
@@ -29,6 +30,7 @@ function Links() {
           </button>
         </a>
       </div>
+      <hr />
     </SLinks>
   );
 }

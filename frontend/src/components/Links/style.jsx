@@ -27,13 +27,19 @@ export default styled.section`
     width: 15vw;
     height: 15vw;
     border: none;
-    box-shadow: 10vw;
+    box-shadow: 5px 3px 10px 1px #a4a1a1;
   }
   div.buttondiv {
     display: flex;
     justify-content: space-between;
     margin-top: 4 rem;
     padding: 5vw;
+  }
+  hr {
+    margin: 2rem auto;
+    border: solid #171815 1px;
+    width: 40vw;
+    justify-self: center;
   }
 
   @media screen and (max-width: 620px) {
