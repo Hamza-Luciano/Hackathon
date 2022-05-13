@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export default styled.nav`
-  background-color: black;
+
+  background-color: #c2f189;
+
   ul {
     list-style: none;
     padding: 0;
@@ -11,17 +13,15 @@ export default styled.nav`
     text-decoration: none;
   }
   .navBar {
-    background-color: transparent;
+ 
     color: #fff;
-    position: fixed;
-    width: 100vw;
+
     min-height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .navBarSolid {
-    background-color: #0000009d;
     color: #fff;
     transition: 0.3s;
   }
