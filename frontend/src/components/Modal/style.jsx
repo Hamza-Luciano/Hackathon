@@ -7,7 +7,7 @@ export default styled.div`
   .btn-modal {
     border: none;
     background: none;
-    color: var(--color-button);
+    color: white;
     cursor: pointer;
     font-size: 20px;
   }
