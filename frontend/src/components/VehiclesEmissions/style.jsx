@@ -4,6 +4,10 @@ export default styled.section`
   .pic {
     height: 10vh;
   }
+  .pipi {
+    display: flex;
+    flex-wrap: wrap;
+  }
   h1 {
     text-align: center;
     font-size: 3rem;
@@ -11,7 +15,7 @@ export default styled.section`
   }
   div {
     display: flex;
-    margin: 2rem 4rem;
+    margin: 2rem 3rem;
   }
   p {
     display: flex;
