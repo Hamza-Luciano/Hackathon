@@ -130,7 +130,7 @@ export default function VehiclesEmissions() {
         </h1>
         <p>GPL : 198 kg / 1000 km</p>
         <p>Essence : {essenceData.co2e} kg / 1000 km</p>
-        <p>Gaz naturel : {naturalGasData.co2e} kg / 1000 km</p>
+        <p>Gaz naturel : {naturalGasData.co2e} kg / 1000 kms</p>
         <p>Diesel : {dieselData.co2e} kg / 1000 km</p>
         <p>Biomethane : {biomethaneData.co2e} kg / 1000 km</p>
         <p>Supréthanol E85 : {e85Data.co2e} kg / 1000 km</p>
