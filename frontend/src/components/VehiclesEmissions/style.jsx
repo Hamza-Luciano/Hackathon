@@ -4,14 +4,18 @@ export default styled.section`
   .pic {
     height: 10vh;
   }
+  .pipi {
+    display: flex;
+    flex-wrap: wrap;
+  }
   h1 {
     text-align: center;
-    font-size: 3rem;
-    padding: 2rem;
+    font-size: 2rem;
+    margin: 4rem;
   }
   div {
     display: flex;
-    margin: 2rem 4rem;
+    margin: 3rem 3rem;
   }
   p {
     display: flex;

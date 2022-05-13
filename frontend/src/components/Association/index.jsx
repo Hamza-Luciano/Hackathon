@@ -37,10 +37,8 @@ export default function Association() {
       </p>
       <img src={ImgAsso2} alt="intro" />
       <h3>
-        <img src={goodplanet} alt="good planet" className="logo" />
-
         <a className="title" href="https://www.goodplanet.org/fr/">
-          Goodplanet
+          <img src={goodplanet} alt="good planet" className="logo" />
         </a>
       </h3>
       <p>
@@ -60,16 +58,14 @@ export default function Association() {
         className="don"
         href="https://donate.goodplanet.org/donate/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPcPC7VEPdhhbzLtd9IZVwQclLLiGGYQwNaQMox1OITeHUsctahNyhIncqUci6ajL33Ryo5GMJujT7fD6WnnkyA&utm_source=GPO&utm_medium=web&utm_content=menuhaut&_cv=1"
       >
-        Faite un don
+        Faire un don
       </a>
       <h3>
-        <img src={FNH} alt="FNH logo" className="logo" />
-
         <a className="title" href="https://www.fnh.org/">
-          Fondation pour la nature et l&#39;homme ( FNH)
+          <img src={FNH} alt="FNH logo" className="logo" />
         </a>
       </h3>
-      <p>
+      <p className="text">
         Pour apporter sa contribution à la préservation de l’environnement, la
         fondation FNH pour la nature et l’homme a été créée en 1990 et reconnue
         d’utilité publique en 1996. C’est une ONG apolitique, et non
@@ -85,19 +81,17 @@ export default function Association() {
       </p>
       <a className="don" href="https://dons.fnh.org/home-site">
         {" "}
-        Faite un don{" "}
+        Faire un don{" "}
       </a>
 
       <img src={ImgAsso3} alt="Pollution" />
       <h3>
-        <img src={agir} alt="APE logo" className="logo" />
-
         <a className="title" href="https://www.agirpourlenvironnement.org/">
-          Agir pour l&#39; environnement (APE)
+          <img src={agir} alt="APE logo" className="logo" />
         </a>
       </h3>
 
-      <p>
+      <p className="text">
         Si plusieurs associations sont déjà tournées vers cette cause,
         l’association Agir pour l’environnement vient compléter la liste. Créée
         en 1997, Agir pour l’environnement a pour mission de mobiliser le public
@@ -113,16 +107,14 @@ export default function Association() {
         className="don"
         href="https://soutenir.agirpourlenvironnement.org/b/mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyOFEYKXoBdt24INzmf73qGNl7rqXzNO0A0FqcnAVwAklA%3D%3D&_cv=1"
       >
-        Faite un don
+        Faire un don
       </a>
       <h3>
-        <img src={zerowaste} alt="zero waste logo" className="logo" />
-
         <a className="title" href="https://www.zerowastefrance.org/">
-          Zero waste France
+          <img src={zerowaste} alt="zero waste logo" className="logo" />
         </a>
       </h3>
-      <p>
+      <p className="text">
         Zero weste France est une ONG qui a été fondée en 1997 en France. Sa
         mission est de promouvoir une ville sans déchet et gaspillage des
         ressources. Zero waste France est une association indépendante. Elle
@@ -138,16 +130,18 @@ export default function Association() {
         className="don"
         href="https://donner.zerowastefrance.org/b/mon-don?_ga=2.195840488.55670577.1652366562-651964620.1652366562&cid=1&_cv=1"
       >
-        Faite un don
+        Faire un don
       </a>
       <h3>
-        <img src={logoHIRONDELLE} alt="Hirondelle logo" className="logo" />
-
         <a className="title" href="https://www.associationhirondelle.fr/">
-          L&#39;association Hirondelle
+          <img
+            src={logoHIRONDELLE}
+            alt="Hirondelle logo"
+            className="logo wwf"
+          />
         </a>
       </h3>
-      <p>
+      <p className="text">
         L’association a été créée en 1995 à Retz Atlantique. Elle intervient
         aussi dans le domaine de l’environnement et regroupe plus de 190
         adhérents. L’association Hirondelle veille à l’éducation à
@@ -163,18 +157,16 @@ export default function Association() {
         className="don"
         href="https://www.associationhirondelle.fr/faire-un-don/"
       >
-        Faite un don
+        Faire un don
       </a>
       <img src={ImgAsso1} alt="Animal" />
       <h3>
-        <img src={WWFLogo} alt="wwf logo" className="logo" />
-
         <a className="title" href="https://www.wwf.fr/">
-          WWF
+          <img src={WWFLogo} alt="wwf logo" className="logo wwf" />
         </a>
       </h3>
 
-      <p>
+      <p className="text">
         Créée en 1961, WWF est la première organisation mondiale et la plus
         grande qui lutte pour la protection de l’environnement. Depuis 1973, le
         but de cette organisation est de travailler à ralentir la destruction de
@@ -191,17 +183,15 @@ export default function Association() {
         className="don"
         href="https://faireundon.wwf.fr/don/~mon-don?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyNed87qdfDPF%2B3XnHxbBuio6P%2B87BK5UgPBjhANsxPKWzasnF4R4IjJH7ALzd%2B1l4O%2FIsm%2F0n9JQgx%2BkBekp9Hmn1GDBsuGXs5WTF4s3T4oD9szUsypdqY83tgoViVQIJQ%3D&utm_source=SiteWWF&utm_medium=Homepage&utm_content=CTAHeader&_ga=2.215543063.100591217.1652355108-335257180.1652355108&_cv=1"
       >
-        Faite un don
+        Faire un don
       </a>
 
       <h3>
-        <img src={ifaw} alt="IFAW" className="logo" />
-
         <a className="title" href="https://www.ifaw.org/fr">
-          Le fonds international pour la protection des animaux (IFAW)
+          <img src={ifaw} alt="IFAW" className="logo logo2" />
         </a>
       </h3>
-      <p>
+      <p className="text">
         Cette ONG a été créée en 1969 au Canada. Elle œuvre pour la protection
         des animaux et reste l’une des plus importantes organisations de
         protection animale au monde. Toutefois, son but spécifique est
@@ -218,16 +208,14 @@ export default function Association() {
         className="don"
         href="https://secure.ifaw.org/france/donner-pour-aider?ms=FONDF220001058&cid=7013k000001C7ZM"
       >
-        Faite un don
+        Faire un don
       </a>
       <h3>
-        <img src={greenpeace} alt="GreenPeace" className="logo" />
-
         <a className="title" href="https://www.greenpeace.fr/">
-          Greenpeace
+          <img src={greenpeace} alt="GreenPeace" className="logo logo2" />
         </a>
       </h3>
-      <p>
+      <p className="text">
         Le réseau Greenpeace est un réseau d’organisations indépendantes. Créé
         en 1971, il a pour mission la protection de l’écosystème et la promotion
         de la paix. Son mode de fonctionnement est basé sur le mouvement citoyen
@@ -245,7 +233,7 @@ export default function Association() {
         href="https://faire-un-don.greenpeace.fr/?codespec=NYYFD"
         className="don"
       >
-        Faite un don
+        Faire un don
       </a>
     </SAssociation>
   );
