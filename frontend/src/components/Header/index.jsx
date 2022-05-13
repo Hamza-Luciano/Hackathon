@@ -6,10 +6,11 @@ export default function Header() {
   return (
     <SHeader img={tree}>
       <div className="headerTxt">
-        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2>Mieux nous connaître</h2>
+        <p>Change your world est une organisation indépendante écologique.</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          dolores delectus hic, mollitia fugiat earum.
+          Il vous permetra à titre informatif de vous renseigné sur les données
+          environnementales{" "}
         </p>
       </div>
     </SHeader>
