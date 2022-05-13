@@ -135,33 +135,35 @@ export default function VehiclesEmissions() {
         <h1>
           Émissions moyennes de co2 des voitures par type de moteur en 2021
         </h1>
-        <div>
-          <img className="pic" src={GPL} alt="gpl" />
-          <p>GPL : 198 kg / 1000 km</p>
-        </div>
-        <div>
-          <img className="pic" src={Essence} alt="essence" />
-          <p>Essence : {essenceData.co2e} kg / 1000 km</p>
-        </div>
-        <div>
-          <img className="pic" src={gazNat} alt="gaznat" />
-          <p>Gaz naturel : {naturalGasData.co2e} kg / 1000 kms</p>
-        </div>
-        <div>
-          <img className="pic" src={Diesel} alt="diesel" />
-          <p>Diesel : {dieselData.co2e} kg / 1000 km</p>
-        </div>
-        <div>
-          <img className="pic" src={BioMethane} alt="BioMethane" />
-          <p>Biomethane : {biomethaneData.co2e} kg / 1000 km</p>
-        </div>
-        <div>
-          <img className="pic" src={superEthanol} alt="superEthanol" />
-          <p>Supréthanol E85 : {e85Data.co2e} kg / 1000 km</p>
-        </div>
-        <div>
-          <img className="pic" src={Electrique} alt="Electrique" />
-          <p>Électrique : {electricData.co2e} kg / 1000 km</p>
+        <div className="pipi">
+          <div>
+            <img className="pic" src={GPL} alt="gpl" />
+            <p>GPL : 198 kg / 1000 km</p>
+          </div>
+          <div>
+            <img className="pic" src={Essence} alt="essence" />
+            <p>Essence : {essenceData.co2e} kg / 1000 km</p>
+          </div>
+          <div>
+            <img className="pic" src={gazNat} alt="gaznat" />
+            <p>Gaz naturel : {naturalGasData.co2e} kg / 1000 kms</p>
+          </div>
+          <div>
+            <img className="pic" src={Diesel} alt="diesel" />
+            <p>Diesel : {dieselData.co2e} kg / 1000 km</p>
+          </div>
+          <div>
+            <img className="pic" src={BioMethane} alt="BioMethane" />
+            <p>Biomethane : {biomethaneData.co2e} kg / 1000 km</p>
+          </div>
+          <div>
+            <img className="pic" src={superEthanol} alt="superEthanol" />
+            <p>Supréthanol E85 : {e85Data.co2e} kg / 1000 km</p>
+          </div>
+          <div>
+            <img className="pic" src={Electrique} alt="Electrique" />
+            <p>Électrique : {electricData.co2e} kg / 1000 km</p>
+          </div>
         </div>
       </section>
     </SVehiclesEmissions>
