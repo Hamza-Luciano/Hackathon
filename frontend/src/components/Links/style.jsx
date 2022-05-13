@@ -28,6 +28,7 @@ export default styled.section`
     height: 15vw;
     border: none;
     box-shadow: 5px 3px 10px 1px #a4a1a1;
+    cursor: pointer;
   }
   div.buttondiv {
     display: flex;

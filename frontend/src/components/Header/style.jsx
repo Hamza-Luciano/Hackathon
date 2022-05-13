@@ -15,10 +15,17 @@ export default styled.header`
     height: auto;
     border-radius: 1rem;
   }
-  .headerTxt > h2,
-  p {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .headerTxt > h2 {
     color: white;
     padding: 1rem;
+  }
+  p {
+    color: white;
+    line-height: 1.5rem;
+    margin-left: 1rem;
   }
   @media screen and (min-width: 620px) {
     height: 100vh;
@@ -26,8 +33,8 @@ export default styled.header`
 
     .headerTxt {
       margin-left: 10vw;
-      width: 40vw;
-      height: auto;
+      width: 30vw;
+      height: 20vh;
       background-color: rgba(0, 0, 0, 0.532);
     }
   }

@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export default styled.nav`
-
   background-color: #c2f189;
-
   ul {
     list-style: none;
     padding: 0;
@@ -13,7 +11,6 @@ export default styled.nav`
     text-decoration: none;
   }
   .navBar {
- 
     color: #fff;
 
     min-height: 75px;
