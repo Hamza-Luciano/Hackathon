@@ -1,0 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-button: rgb(143, 44, 44);
+}
