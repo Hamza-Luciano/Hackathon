@@ -34,7 +34,7 @@ export default styled.div`
     padding: 14px 28px;
     border-radius: 3px;
     /* vrai valeur min-width: 300px; */
-    min-width: 450px;
+    min-width: 355px;
     color: black;
   }
   .close-modal {
