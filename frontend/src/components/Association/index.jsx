@@ -1,4 +1,3 @@
-import ImgAsso1 from "../../assets/ImgAsso1.svg";
 import ImgAsso2 from "../../assets/ImgAsso2.svg";
 import ImgAsso3 from "../../assets/ImgAsso3.svg";
 
@@ -15,7 +14,7 @@ import SAssociation from "./style";
 export default function Association() {
   return (
     <SAssociation>
-      <h1> Donnez pour aider </h1>
+      <h1 className="titre"> Donner pour aider </h1>
       <p>
         L’environnement est une richesse précieuse qu’il convient de préserver
         pour son développement durable. En effet, l’homme tire l’essentiel de
@@ -62,7 +61,7 @@ export default function Association() {
       </a>
       <h3>
         <a className="title" href="https://www.fnh.org/">
-          <img src={FNH} alt="FNH logo" className="logo" />
+          <img src={FNH} alt="FNH logo" className="logo logo2" />
         </a>
       </h3>
       <p className="text">
@@ -134,11 +133,7 @@ export default function Association() {
       </a>
       <h3>
         <a className="title" href="https://www.associationhirondelle.fr/">
-          <img
-            src={logoHIRONDELLE}
-            alt="Hirondelle logo"
-            className="logo wwf"
-          />
+          <img src={logoHIRONDELLE} alt="Hirondelle logo" className="logo " />
         </a>
       </h3>
       <p className="text">
@@ -159,10 +154,9 @@ export default function Association() {
       >
         Faire un don
       </a>
-      <img src={ImgAsso1} alt="Animal" />
       <h3>
         <a className="title" href="https://www.wwf.fr/">
-          <img src={WWFLogo} alt="wwf logo" className="logo wwf" />
+          <img src={WWFLogo} alt="wwf logo" className="logo " />
         </a>
       </h3>
 

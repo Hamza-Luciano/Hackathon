@@ -12,6 +12,9 @@ export default styled.main`
     font-weight: 600;
     margin: 2rem auto;
   }
+  .titre{
+    font-size: 4rem;
+  }
   h1 {
     text-transform: none;
     letter-spacing: 0;
@@ -35,8 +38,32 @@ export default styled.main`
     border: solid black 1px;
     padding: 2rem;
   }
+.don {
+	box-shadow: 2px 0px 0px 2px #cc0202;
+	background-color:#cc0202;
+	border-radius:10px;
+	border:1px solid #cc0202;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc0202;
+}.don:hover {
+	
+}
+.don:active {
+	position:relative;
+	top:1px;
+}
+  }
+
   .don:hover {
-    background-color: #c2f189;
+    background-position: right center; /* change the direction of the change here */
+    color: #7e0b0b;
+    text-decoration: none;
   }
   .title {
     font-size: 1.5rem;
@@ -47,8 +74,6 @@ export default styled.main`
     margin-bottom: 2rem;
   }
   .logo {
-    /* width: 30%;
-    padding-right: 1rem; */
     display: block;
     margin: 0 px auto;
     width: auto;

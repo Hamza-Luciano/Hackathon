@@ -133,7 +133,7 @@ export default function VehiclesEmissions() {
     <SVehiclesEmissions>
       <section>
         <h1>
-          Émissions moyennes de co2 des voitures par type de moteur en 2021
+          Émissions moyennes de CO2 des voitures par type de moteur en 2021
         </h1>
         <div className="pipi">
           <div>
