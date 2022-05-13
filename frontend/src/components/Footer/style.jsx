@@ -8,6 +8,9 @@ export default styled.footer`
   font-weight: bold;
   margin: 0;
   padding: 0;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
 
   .ml {
     overflow: scroll;
