@@ -5,9 +5,9 @@ function Links() {
   return (
     <SLinks>
       <div className="buttondiv">
-        <Link to="/Transports">
+        <Link to="/mycity">
           <button type="button" className="but">
-            Transports alternatifs
+            Qualité de l&apos;air
           </button>
         </Link>
 
