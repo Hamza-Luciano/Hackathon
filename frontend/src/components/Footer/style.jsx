@@ -16,6 +16,13 @@ export default styled.footer`
     font-size: 1rem;
     text-align: justify;
   }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .contact {
+    text-align: center;
+  }
   h4 {
     text-align: center;
   }
