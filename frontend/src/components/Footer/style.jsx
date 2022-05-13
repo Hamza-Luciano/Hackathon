@@ -20,6 +20,7 @@ export default styled.footer`
   }
   .contact {
     text-align: center;
+    line-height: 1.5rem;
   }
   h4 {
     text-align: center;
