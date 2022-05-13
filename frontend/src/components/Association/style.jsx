@@ -31,6 +31,16 @@ export default styled.main`
     text-decoration: underline;
     color: black;
   }
+  .don {
+    border: solid black 1px;
+    padding: 2rem;
+  }
+  .don:hover {
+    background-color: #c2f189;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
   img {
     width: 90vw;
 

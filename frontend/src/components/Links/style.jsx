@@ -32,7 +32,7 @@ export default styled.section`
   div.buttondiv {
     display: flex;
     justify-content: space-between;
-    margin-top: 40rem;
+    margin-top: 4 rem;
     padding: 5vw;
   }
 
