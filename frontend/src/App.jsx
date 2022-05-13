@@ -5,10 +5,12 @@ import "./App.css";
 import Footer from "./components/Footer";
 import CardForm from "./components/CardForm";
 import VehiclesEmissions from "./components/VehiclesEmissions";
+import Head from "./components/Head";
 
 function App() {
   return (
     <div className="App">
+      <Head />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/association" element={<Association />} />
