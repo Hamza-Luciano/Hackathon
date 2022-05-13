@@ -5,12 +5,12 @@ import "./App.css";
 import Footer from "./components/Footer";
 import CardForm from "./components/CardForm";
 import VehiclesEmissions from "./components/VehiclesEmissions";
-import Head from "./components/Head";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
-      <Head />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/association" element={<Association />} />
